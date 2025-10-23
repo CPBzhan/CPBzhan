@@ -20,7 +20,7 @@
 🧩 Skilled in **C++**, **Python**, **Haskell**, and a bit of **frontend**  
 🔥 Always exploring new tech and creative projects  
 
-<img align="right" alt="profile image" src="https://github.com/CPBzhan/CPBzhan/blob/main/img/profile.jpg" width="45%" />
+<img align="right" alt="profile image" src="https://github.com/CPBzhan/CPBzhan/blob/main/profile.jpg" width="45%" />
 
 ---
 
