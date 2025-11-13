@@ -17,8 +17,10 @@
 
 🎓 First-year student at the **University of Edinburgh**  
 💡 Interested in **algorithms**, **AI**, **emerging technologies**, and **gaming**  
-🧩 Skilled in **C++**, **Python**, **Haskell**, and a bit of **frontend**  
-🔥 Always exploring new tech and creative projects  
+🧩 Skilled in **C++**, **Python**, **Haskell**, **JAVA**, and a bit of **frontend**  
+🔥 Always exploring new tech and creative projects
+
+🇬🇧 CodeForces account **CPBzhan** is same name as github
 
 <img align="right" alt="profile image" src="https://github.com/CPBzhan/CPBzhan/blob/main/profile.jpg" width="45%" />
 
