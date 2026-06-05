@@ -15,7 +15,7 @@
 
 ### 🧠 About Me
 
-🎓 First-year student at the **University of Edinburgh**  
+🎓 Second-year student at the **University of Edinburgh**  
 💡 Interested in **algorithms**, **AI**, **emerging technologies**, and **gaming**  
 🧩 Skilled in **C++**, **Python**, **Haskell**, **JAVA**, and a bit of **frontend**  
 🔥 Always exploring new tech and creative projects
