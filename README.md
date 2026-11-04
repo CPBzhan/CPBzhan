@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/assets/hero-mobile.svg">
-  <img src="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/assets/hero.svg" alt="Charlie Wang / CPBzhan — Curiosity, compiled. Computer Science at the University of Edinburgh." width="100%">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/CPBzhan/CPBzhan/refs/heads/main/assets/hero-mobile.svg">
+  <img src="https://raw.githubusercontent.com/CPBzhan/CPBzhan/refs/heads/main/assets/hero.svg" alt="Charlie Wang / CPBzhan — Curiosity, compiled. Computer Science at the University of Edinburgh." width="100%">
 </picture>
 
 <p align="center">
@@ -15,8 +15,8 @@
 I'm **Charlie**, a Computer Science student at the **University of Edinburgh**. I like finding the idea behind an algorithm, turning maths into something you can see, and getting a little too invested in games.
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/assets/terminal-mobile.svg">
-  <img src="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/assets/terminal.svg" alt="Charlie Wang / CPBzhan. Computer Science at the University of Edinburgh. Algorithms, creative coding, and game design." width="100%">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/CPBzhan/CPBzhan/refs/heads/main/assets/terminal-mobile.svg">
+  <img src="https://raw.githubusercontent.com/CPBzhan/CPBzhan/refs/heads/main/assets/terminal.svg" alt="Charlie Wang / CPBzhan. Computer Science at the University of Edinburgh. Algorithms, creative coding, and game design." width="100%">
 </picture>
 
 <br>
@@ -60,8 +60,8 @@ My problem-by-problem collection of algorithm practice. One solution, one new pa
 ## Tools I reach for
 
 <picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/assets/stack-mobile.svg">
-  <img src="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/assets/stack.svg" alt="Languages: C, C++, Python, Java, Haskell. Web and data: React, Node.js, NumPy, Pandas, OpenCV, Keras. Workbench: Git, Linux, VS Code, IntelliJ IDEA." width="100%">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/CPBzhan/CPBzhan/refs/heads/main/assets/stack-mobile.svg">
+  <img src="https://raw.githubusercontent.com/CPBzhan/CPBzhan/refs/heads/main/assets/stack.svg" alt="Languages: C, C++, Python, Java, Haskell. Web and data: React, Node.js, NumPy, Pandas, OpenCV, Keras. Workbench: Git, Linux, VS Code, IntelliJ IDEA." width="100%">
 </picture>
 
 <details>
@@ -79,8 +79,8 @@ My problem-by-problem collection of algorithm practice. One solution, one new pa
 
 <a href="https://github.com/CPBzhan?tab=overview">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/assets/activity-mobile.svg">
-    <img src="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/assets/activity.svg" alt="CPBzhan's GitHub contribution history, generated from the account's public contribution calendar. Snapshot date and covered period are shown on the chart." width="100%">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/CPBzhan/CPBzhan/refs/heads/main/assets/activity-mobile.svg">
+    <img src="https://raw.githubusercontent.com/CPBzhan/CPBzhan/refs/heads/main/assets/activity.svg" alt="CPBzhan's GitHub contribution history, generated from the account's public contribution calendar. Snapshot date and covered period are shown on the chart." width="100%">
   </picture>
 </a>
 
@@ -102,8 +102,8 @@ My problem-by-problem collection of algorithm practice. One solution, one new pa
 
 <a href="mailto:zehanw66@gmail.com">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/assets/footer-mobile.svg">
-    <img src="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/assets/footer.svg" alt="Build something cool. Learn something new. Get in touch with Charlie." width="100%">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/CPBzhan/CPBzhan/refs/heads/main/assets/footer-mobile.svg">
+    <img src="https://raw.githubusercontent.com/CPBzhan/CPBzhan/refs/heads/main/assets/footer.svg" alt="Build something cool. Learn something new. Get in touch with Charlie." width="100%">
   </picture>
 </a>
 
