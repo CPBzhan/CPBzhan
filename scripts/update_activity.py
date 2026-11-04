@@ -16,7 +16,7 @@ import urllib.request
 
 
 SOURCE = "https://github.com/users/CPBzhan/contributions"
-COLORS = ("#17232d", "#204b42", "#28765d", "#3ab78b", "#6ef3c5")
+COLORS = ("#e2eeea", "#a1d9c5", "#61bd9d", "#2c9d79", "#077b71")
 MONTHS = ("", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
 
 
@@ -143,18 +143,18 @@ def render_svg(calendar: Calendar, snapshot: date, *, mobile: bool = False) -> s
         '    @keyframes accent-pulse { 0%, 100% { opacity: .4; } 50% { opacity: 1; } }',
         '    @media (prefers-reduced-motion: reduce) { .accent { animation: none; } }',
         '  </style>',
-        f'  <rect x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="18" fill="#080d14" stroke="#22313d"/>',
-        f'  <rect x="1" y="1" width="{width - 2}" height="{100 if mobile else 65}" rx="17" fill="#0e1721"/>',
-        f'  <path d="M24 1 H{180 if mobile else 220}" stroke="#6ef3c5" stroke-width="2" class="accent"/>',
-        f'  <text x="{24 if mobile else 30}" y="{45 if mobile else 36}" fill="#e4edf3" font-size="{title_size}" font-weight="600">Contribution activity</text>',
+        f'  <rect x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="18" fill="#f5faf9" stroke="#cfdfdc"/>',
+        f'  <rect x="1" y="1" width="{width - 2}" height="{100 if mobile else 65}" rx="17" fill="#eaf3f1"/>',
+        f'  <path d="M24 1 H{180 if mobile else 220}" stroke="#077b71" stroke-width="2" class="accent"/>',
+        f'  <text x="{24 if mobile else 30}" y="{45 if mobile else 36}" fill="#18343e" font-size="{title_size}" font-weight="600">Contribution activity</text>',
     ]
     if mobile:
-        svg.append(f'  <text x="24" y="82" fill="#6ef3c5" font-size="{body_size}">{total:,} contributions · {window}</text>')
+        svg.append(f'  <text x="24" y="82" fill="#077b71" font-size="{body_size}">{total:,} contributions · {window}</text>')
     else:
         svg.extend([
-            '  <text x="30" y="55" fill="#8a9ba8" font-size="11" class="mono">CPBZHAN / GITHUB HISTORY</text>',
-            f'  <text x="970" y="36" text-anchor="end" fill="#6ef3c5" font-size="{body_size}">{total:,} contributions shown</text>',
-            f'  <text x="970" y="55" text-anchor="end" fill="#8a9ba8" font-size="11">{window}</text>',
+            '  <text x="30" y="55" fill="#586f79" font-size="11" class="mono">CPBZHAN / GITHUB HISTORY</text>',
+            f'  <text x="970" y="36" text-anchor="end" fill="#077b71" font-size="{body_size}">{total:,} contributions shown</text>',
+            f'  <text x="970" y="55" text-anchor="end" fill="#586f79" font-size="11">{window}</text>',
         ])
 
     # Month labels follow actual week columns; only the accent border animates.
@@ -165,10 +165,10 @@ def render_svg(calendar: Calendar, snapshot: date, *, mobile: bool = False) -> s
         if representative.month != last_month:
             # Avoid a clipped label at the right edge of a partial final week.
             if column < columns - 2:
-                svg.append(f'  <text x="{grid_x + column * step}" y="{month_y}" fill="#8a9ba8" font-size="{month_size}">{MONTHS[representative.month]}</text>')
+                svg.append(f'  <text x="{grid_x + column * step}" y="{month_y}" fill="#586f79" font-size="{month_size}">{MONTHS[representative.month]}</text>')
             last_month = representative.month
     for row, label in ((1, "Mon"), (3, "Wed"), (5, "Fri")):
-        svg.append(f'  <text x="{24 if mobile else 30}" y="{grid_y + row * step + size - 1}" fill="#8a9ba8" font-size="{20 if mobile else 10}">{label}</text>')
+        svg.append(f'  <text x="{24 if mobile else 30}" y="{grid_y + row * step + size - 1}" fill="#586f79" font-size="{20 if mobile else 10}">{label}</text>')
     for day in days:
         column, row = divmod((day.date - first_sunday).days, 7)
         label = f"{day.date.isoformat()}: {day.count} contribution{'s' if day.count != 1 else ''}"
@@ -176,21 +176,21 @@ def render_svg(calendar: Calendar, snapshot: date, *, mobile: bool = False) -> s
 
     if mobile:
         svg.extend([
-            f'  <text x="24" y="293" fill="#8a9ba8" font-size="22">{escape(coverage)}</text>',
-            f'  <text x="24" y="325" fill="#8a9ba8" font-size="22">Snapshot · {snapshot.isoformat()} UTC</text>',
+            f'  <text x="24" y="293" fill="#586f79" font-size="22">{escape(coverage)}</text>',
+            f'  <text x="24" y="325" fill="#586f79" font-size="22">Snapshot · {snapshot.isoformat()} UTC</text>',
         ])
         legend_x, legend_y, legend_size, legend_step, legend_font = 82, 347, 16, 24, 22
-        svg.append('  <text x="24" y="361" fill="#8a9ba8" font-size="22">Less</text>')
+        svg.append('  <text x="24" y="361" fill="#586f79" font-size="22">Less</text>')
     else:
         svg.extend([
-            f'  <text x="30" y="225" fill="#8a9ba8" font-size="11">{escape(coverage)}</text>',
-            f'  <text x="350" y="225" fill="#8a9ba8" font-size="11">Snapshot · {snapshot.isoformat()} UTC</text>',
-            '  <text x="808" y="225" fill="#8a9ba8" font-size="10">Less</text>',
+            f'  <text x="30" y="225" fill="#586f79" font-size="11">{escape(coverage)}</text>',
+            f'  <text x="350" y="225" fill="#586f79" font-size="11">Snapshot · {snapshot.isoformat()} UTC</text>',
+            '  <text x="808" y="225" fill="#586f79" font-size="10">Less</text>',
         ])
         legend_x, legend_y, legend_size, legend_step, legend_font = 840, 215, 11, 17, 10
     for level, color in enumerate(COLORS):
         svg.append(f'  <rect x="{legend_x + level * legend_step}" y="{legend_y}" width="{legend_size}" height="{legend_size}" rx="3" fill="{color}"><title>GitHub intensity level {level} of 4</title></rect>')
-    svg.append(f'  <text x="{legend_x + 5 * legend_step + 3}" y="{legend_y + legend_size - 1}" fill="#8a9ba8" font-size="{legend_font}">More</text>')
+    svg.append(f'  <text x="{legend_x + 5 * legend_step + 3}" y="{legend_y + legend_size - 1}" fill="#586f79" font-size="{legend_font}">More</text>')
     svg.append('</svg>')
     return "\n".join(svg) + "\n"
 

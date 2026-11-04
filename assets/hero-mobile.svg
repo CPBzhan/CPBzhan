@@ -2,10 +2,11 @@
   <title id="title">Charlie Wang — Curiosity, compiled.</title>
   <desc id="desc">Computer Science at the University of Edinburgh. Mint orbital geometry rotates beside Charlie's name.</desc>
   <defs>
-    <radialGradient id="halo"><stop stop-color="#1b7567" stop-opacity=".32"/><stop offset="1" stop-color="#080d14" stop-opacity="0"/></radialGradient>
-    <linearGradient id="orb" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b2ffe7"/><stop offset=".5" stop-color="#43c8a6"/><stop offset="1" stop-color="#103e3b"/></linearGradient>
-    <linearGradient id="edge"><stop stop-color="#6ef3c5"/><stop offset=".6" stop-color="#223a42"/><stop offset="1" stop-color="#080d14"/></linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#7ab5b5" stroke-opacity=".045"/></pattern>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbfcff"/><stop offset=".55" stop-color="#f0faf7"/><stop offset="1" stop-color="#e5f4ef"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#8bd9c1" stop-opacity=".32"/><stop offset="1" stop-color="#f5faf9" stop-opacity="0"/></radialGradient>
+    <linearGradient id="orb" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d7e77"/><stop offset=".5" stop-color="#359e8b"/><stop offset="1" stop-color="#4e9c94"/></linearGradient>
+    <linearGradient id="edge"><stop stop-color="#077b71"/><stop offset=".6" stop-color="#b8d7ce"/><stop offset="1" stop-color="#f5faf9"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#529b96" stroke-opacity=".045"/></pattern>
     <clipPath id="bounds"><rect width="600" height="540" rx="18"/></clipPath>
   </defs>
   <style>
@@ -18,26 +19,26 @@
     @media(prefers-reduced-motion:reduce){.orbit,.counter,.signal{animation:none}}
   </style>
   <g clip-path="url(#bounds)">
-    <rect width="600" height="540" fill="#080d14"/>
+    <rect width="600" height="540" fill="url(#paper)"/>
     <rect width="600" height="540" fill="url(#grid)"/>
     <circle cx="490" cy="380" r="275" fill="url(#halo)"/>
     <g opacity=".65">
       <g transform="translate(490 380) rotate(-24)" stroke="url(#orb)" stroke-width=".8" opacity=".72"><ellipse cx="0" cy="0" rx="155" ry="36" transform="rotate(0)"/><ellipse cx="0" cy="0" rx="155" ry="78" transform="rotate(0)"/><ellipse cx="0" cy="0" rx="155" ry="120" transform="rotate(0)"/><ellipse cx="0" cy="0" rx="155" ry="155" transform="rotate(0)"/><ellipse cx="0" cy="0" rx="155" ry="36" transform="rotate(90)"/><ellipse cx="0" cy="0" rx="155" ry="78" transform="rotate(90)"/><ellipse cx="0" cy="0" rx="155" ry="120" transform="rotate(90)"/></g>
-      <g class="orbit"><ellipse cx="490" cy="380" rx="192" ry="66" transform="rotate(-28 490 380)" stroke="#6ef3c5" stroke-opacity=".65"/><circle cx="659.5" cy="289.9" r="5" fill="#b4ffe9"/><circle cx="659.5" cy="289.9" r="10" stroke="#6ef3c5" stroke-opacity=".3"/></g>
-      <g class="counter"><circle cx="490" cy="380" r="175" stroke="#6ef3c5" stroke-opacity=".26" stroke-dasharray="2 15"/><path d="M315 380a175 175 0 0 1 175 -175" stroke="#6ef3c5" stroke-width="2" stroke-opacity=".7"/></g>
-      <circle cx="665.0" cy="453.99" r="2" fill="#8eeed1" opacity="0.7"/><circle cx="366.07" cy="518.7" r="2" fill="#8eeed1" opacity="0.8"/><circle cx="450.37" cy="196.22" r="3" fill="#8eeed1" opacity="0.8"/><circle cx="642.36" cy="228.31" r="1" fill="#8eeed1" opacity="0.5"/><circle cx="302.38" cy="350.03" r="1" fill="#8eeed1" opacity="0.7"/>
-      <path d="M480 380h20M490 370v20" stroke="#b9ffeb"/>
+      <g class="orbit"><ellipse cx="490" cy="380" rx="192" ry="66" transform="rotate(-28 490 380)" stroke="#077b71" stroke-opacity=".65"/><circle cx="659.5" cy="289.9" r="5" fill="#147d72"/><circle cx="659.5" cy="289.9" r="10" stroke="#077b71" stroke-opacity=".3"/></g>
+      <g class="counter"><circle cx="490" cy="380" r="175" stroke="#077b71" stroke-opacity=".26" stroke-dasharray="2 15"/><path d="M315 380a175 175 0 0 1 175 -175" stroke="#077b71" stroke-width="2" stroke-opacity=".7"/></g>
+      <circle cx="665.0" cy="453.99" r="2" fill="#289483" opacity="0.7"/><circle cx="366.07" cy="518.7" r="2" fill="#289483" opacity="0.8"/><circle cx="450.37" cy="196.22" r="3" fill="#289483" opacity="0.8"/><circle cx="642.36" cy="228.31" r="1" fill="#289483" opacity="0.5"/><circle cx="302.38" cy="350.03" r="1" fill="#289483" opacity="0.7"/>
+      <path d="M480 380h20M490 370v20" stroke="#23796e"/>
     </g>
-    <g font-family="Arial, Helvetica, sans-serif" fill="#e7f3f5">
-      <text x="42" y="54" font-size="14" letter-spacing="3" fill="#6ef3c5">CPBZHAN / PERSONAL ORBIT</text>
-      <text x="42" y="156" font-size="82" font-weight="700" letter-spacing="-5">Charlie</text><text x="42" y="243" font-size="82" font-weight="700" letter-spacing="-5" fill="#6ef3c5">Wang.</text>
-      <text x="42" y="290" font-size="29" fill="#a8c0ca">Curiosity, compiled.</text>
-      <text x="42" y="336" font-size="18" fill="#8a9ba8">COMPUTER SCIENCE · EDINBURGH</text>
-      <circle class="signal" cx="48" cy="374" r="4" fill="#6ef3c5"/>
-      <text x="63" y="380" font-size="15" fill="#c3d4db">Learning. Building. Iterating.</text>
-      <text x="42" y="487" font-size="17" fill="#9eb4bf">ALGORITHMS / CREATIVE CODE / PLAY</text>
+    <g font-family="Arial, Helvetica, sans-serif" fill="#18343e">
+      <text x="42" y="54" font-size="14" letter-spacing="3" fill="#077b71">CPBZHAN / PERSONAL ORBIT</text>
+      <text x="42" y="156" font-size="82" font-weight="700" letter-spacing="-5">Charlie</text><text x="42" y="243" font-size="82" font-weight="700" letter-spacing="-5" fill="#077b71">Wang.</text>
+      <text x="42" y="290" font-size="29" fill="#496671">Curiosity, compiled.</text>
+      <text x="42" y="336" font-size="18" fill="#586f79">COMPUTER SCIENCE · EDINBURGH</text>
+      <circle class="signal" cx="48" cy="374" r="4" fill="#077b71"/>
+      <text x="63" y="380" font-size="15" fill="#496671">Learning. Building. Iterating.</text>
+      <text x="42" y="487" font-size="17" fill="#586f79">ALGORITHMS / CREATIVE CODE / PLAY</text>
     </g>
     <path d="M42 457H548" stroke="url(#edge)"/>
-    <rect x=".5" y=".5" width="599" height="539" rx="17.5" stroke="#23323c"/>
+    <rect x=".5" y=".5" width="599" height="539" rx="17.5" stroke="#cfdfdc"/>
   </g>
 </svg>
