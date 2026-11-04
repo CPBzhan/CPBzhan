@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="228" viewBox="0 0 1000 228" fill="none" role="img" aria-labelledby="stack-title stack-desc">
+  <title id="stack-title">Languages and tools</title>
+  <desc id="stack-desc">Languages: C/C++, Python, Java, Haskell. Web and data: React, Node.js, NumPy, Pandas, OpenCV, Keras. Workbench: Git, Linux, VS Code, IntelliJ IDEA.</desc>
+  <style>
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+    .sans { font-family: Arial, Helvetica, sans-serif; }
+  </style>
+  <rect x="0.5" y="0.5" width="999" height="227" rx="16" fill="#0e1721" stroke="#22313d"/>
+  <path d="M333.5 28V200M666.5 28V200" stroke="#22313d"/>
+  <g class="mono" font-size="13" font-weight="500" letter-spacing="2" fill="#8a9ba8">
+    <text x="36" y="44">LANGUAGES</text>
+    <text x="369" y="44">WEB &amp; DATA</text>
+    <text x="702" y="44">WORKBENCH</text>
+  </g>
+  <g stroke="#6ef3c5" stroke-width="1.5">
+    <path d="M281 33L276 38L281 43M296 33L301 38L296 43M291 31L286 45"/>
+    <path d="M612 32H628V44H612ZM617 32V44M612 37H628"/>
+    <path d="M945 33L950 38L945 43M953 43H960"/>
+  </g>
+  <g class="sans" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#e7f3f5">
+    <text x="36" y="93">C/C++ <tspan fill="#526675">/</tspan> Python</text>
+    <text x="36" y="130">Java <tspan fill="#526675">/</tspan> Haskell</text>
+    <text x="369" y="93">React <tspan fill="#526675">/</tspan> Node.js</text>
+    <text x="369" y="130">NumPy <tspan fill="#526675">/</tspan> Pandas</text>
+    <text x="369" y="167">OpenCV <tspan fill="#526675">/</tspan> Keras</text>
+    <text x="702" y="93">Git <tspan fill="#526675">/</tspan> Linux</text>
+    <text x="702" y="130">VS Code</text>
+    <text x="702" y="167">IntelliJ IDEA</text>
+  </g>
+  <path d="M36 198H60M369 198H393M702 198H726" stroke="#6ef3c5" stroke-width="2"/>
+</svg>

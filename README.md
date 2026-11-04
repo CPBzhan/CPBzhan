@@ -1,115 +1,114 @@
-<!--
-**CPBzhan/CPBzhan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
-
-<h1 align="center">👋 Hey there, I'm <span style="color:#58a6ff;">Charlie Wang</span>!</h1>
-<h3 align="center">🚀 A passionate CS student @ University of Edinburgh</h3>
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/assets/hero-mobile.svg">
+  <img src="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/assets/hero.svg" alt="Charlie Wang / CPBzhan — Curiosity, compiled. Computer Science at the University of Edinburgh." width="100%">
+</picture>
 
 <p align="center">
-  <a href="https://github.com/CPBzhan"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github"></a>
-  <a href="mailto:1511952898@qq.com"><img src="https://img.shields.io/badge/-QQ%20Mail-c14438?style=flat&logo=gmail&logoColor=white"></a>
-  <a href="mailto:zehanw66@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=gmail&logoColor=white"></a>
+  <a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
+  <a href="https://codeforces.com/profile/CPBzhan">Codeforces</a> &nbsp; / &nbsp;
+  <a href="https://leetcode.com/u/CPBzhan/">LeetCode</a> &nbsp; / &nbsp;
+  <a href="mailto:zehanw66@gmail.com">Get in touch ↗</a>
 </p>
-
----
-
-### 🧠 About Me
-
-🎓 Second-year Computer Science student at the **University of Edinburgh**  
-💡 Interested in **algorithms**, **AI**, **emerging technologies**, and **gaming**  
-🧩 Skilled in **C++**, **Python**, **Haskell**, **JAVA**, and a bit of **frontend**  
-🔥 Always exploring new tech and creative projects
-
-🇬🇧 CodeForces/Leetcode account **CPBzhan** is same name as github
-
-<img align="right" alt="profile image" src="https://github.com/CPBzhan/CPBzhan/blob/main/profile.jpg" width="45%" />
-
----
-
-### ⚙️ Tech Stack
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=cpp,python,haskell,html,css,js,react,git,vscode" />
-</p>
-
-#### 会写的编程语言 / languages i've coded in
-[![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
-[![Haskell](https://img.shields.io/badge/Haskell-5e5086?style=for-the-badge&logo=haskell&logoColor=white)](https://www.haskell.org/)
-[![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
-[![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)](https://www.c-language.org/)
-[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
-
-#### 会用的库 / libraries i've coded in
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F.svg?style=for-the-badge&logo=node.js&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000.svg?style=for-the-badge&logo=keras&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-
-#### 爱用的软件/编辑器  / software/editors I like to use
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-
----
-
-## 个人 GitHub 开发数据 | My Coding Contributions
-
-<!-- 账号综合统计卡片，自动适配深浅系统主题 -->
-<div align="center">
-  <picture title="账号仓库与协作数据">
-    <source media="(prefers-color-scheme: dark)" 
-            srcset="https://github-readme-stats.shion.dev/api?username=CPBzhan&show_icons=true&theme=tokyonight&show=prs_merged,reviews,discussions_answered,discussions_started,prs_merged_percentage" />
-    <source media="(prefers-color-scheme: light)" 
-            srcset="https://github-readme-stats.shion.dev/api?username=CPBzhan&show_icons=true&theme=graywhite&show=prs_merged,reviews,discussions_answered,discussions_started,prs_merged_percentage" />
-    <img src="https://github-readme-stats.shion.dev/api?username=CPBzhan&show_icons=true&theme=graywhite" alt="个人GitHub综合数据面板" />
-  </picture>
-</div>
 
 <br>
 
-<!-- 项目常用编程语言占比图表 -->
-<div align="center">
-  <picture title="高频开发语言分布统计">
-    <source media="(prefers-color-scheme: dark)" 
-            srcset="https://github-readme-stats.shion.dev/api/top-langs/?username=CPBzhan&layout=compact&theme=tokyonight" />
-    <source media="(prefers-color-scheme: light)" 
-            srcset="https://github-readme-stats.shion.dev/api/top-langs/?username=CPBzhan&layout=compact&theme=graywhite" />
-    <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=CPBzhan&layout=compact" alt="常用编程语言排行" />
-  </picture>
-</div>
+I'm **Charlie**, a Computer Science student at the **University of Edinburgh**. I like finding the idea behind an algorithm, turning maths into something you can see, and getting a little too invested in games.
+
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/assets/terminal-mobile.svg">
+  <img src="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/assets/terminal.svg" alt="Charlie Wang / CPBzhan. Computer Science at the University of Edinburgh. Algorithms, creative coding, and game design." width="100%">
+</picture>
 
 <br>
 
-<!-- 年度提交贪吃蛇动图，双线路加速防止图片加载失败 -->
-<div align="center">
-  <picture title="全年代码提交动态贪吃蛇">
-    <!-- GitHub原始资源地址 -->
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lingbopro/lingbopro/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lingbopro/lingbopro/output/github-contribution-grid-snake.svg">
-    <!-- Git镜像备用地址 -->
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.gitmirror.com/lingbopro/lingbopro/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.gitmirror.com/lingbopro/lingbopro/output/github-contribution-grid-snake.svg">
-    <img alt="年度代码贡献贪吃蛇动画" src="https://raw.githubusercontent.com/lingbopro/lingbopro/output/github-contribution-grid-snake.svg">
+## Selected work
+
+### 01 &nbsp; AIGraph &nbsp; [↗](https://github.com/CPBzhan/AIGraph)
+
+An interactive playground for geometry and functions, with local AI drawing through Ollama. Built on [Open-JSXGraph](https://github.com/blendviewer/open-jsxgraph).
+
+`TypeScript` `Next.js` `JSXGraph` `Ollama`
+
+---
+
+### 02 &nbsp; L-System Fractal Generator &nbsp; [↗](https://github.com/CPBzhan/Inf1a/tree/main/Inf1ACompetation)
+
+Simple rules, intricate worlds. An interactive Haskell project with animated growth, adjustable iterations and angles, and stochastic branching.
+
+`Haskell` `Gloss` `Recursion` `Generative graphics`
+
+<details open>
+  <summary><b>Watch it grow</b> · a demo from the project</summary>
+  <br>
+  <a href="https://github.com/CPBzhan/Inf1a/tree/main/Inf1ACompetation">
+    <img src="https://raw.githubusercontent.com/CPBzhan/Inf1a/main/Inf1ACompetation/assets/FirstBranch.gif" alt="Animated branching fractal from my Haskell L-System Fractal Generator" width="100%">
+  </a>
+</details>
+
+---
+
+### 03 &nbsp; LeetCode Solutions &nbsp; [↗](https://github.com/CPBzhan/leetcode-solutions)
+
+My problem-by-problem collection of algorithm practice. One solution, one new pattern, one less mystery.
+
+`C++` `Python` `Data structures` `Problem solving`
+
+<p><a href="https://github.com/CPBzhan?tab=repositories">Explore all repositories →</a></p>
+
+<br>
+
+## Tools I reach for
+
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/assets/stack-mobile.svg">
+  <img src="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/assets/stack.svg" alt="Languages: C, C++, Python, Java, Haskell. Web and data: React, Node.js, NumPy, Pandas, OpenCV, Keras. Workbench: Git, Linux, VS Code, IntelliJ IDEA." width="100%">
+</picture>
+
+<details>
+  <summary>Text version</summary>
+
+  - **Languages:** C / C++, Python, Java, Haskell
+  - **Web & data:** HTML, CSS, JavaScript, React, Node.js, NumPy, Pandas, OpenCV, Keras
+  - **Workbench:** Git, Linux, Windows, VS Code, Visual Studio, IntelliJ IDEA
+
+</details>
+
+<br>
+
+## In motion
+
+<a href="https://github.com/CPBzhan?tab=overview">
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/assets/activity-mobile.svg">
+    <img src="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/assets/activity.svg" alt="CPBzhan's GitHub contribution history, generated from the account's public contribution calendar. Snapshot date and covered period are shown on the chart." width="100%">
   </picture>
-</div>
+</a>
 
----
+<p align="center"><sub>Public contribution calendar · refreshed daily · <a href="https://github.com/CPBzhan?tab=overview">Full contribution history ↗</a></sub></p>
 
-### 🕹️ Fun Facts
+<br>
 
-- 💬 I love discussing **AI**, **game design**, and **competitive programming**
-- 🎮 When not coding, you’ll find me gaming or trying out new gadgets
-- 🧠 Motto: *“Build something cool. Learn something new.”*
+<details>
+  <summary><b>Off the clock</b> &nbsp; / &nbsp; player two has entered the chat</summary>
+  <br>
+  <img src="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/profile.jpg" alt="My yellow pixel-art companion" width="160" align="right">
+  <p>Usually gaming, trying out a new gadget, or thinking about how a game mechanic works.</p>
+  <p>Always happy to talk algorithms, game design, and interesting experiments.</p>
+  <p>Find me as <b>CPBzhan</b> on Codeforces and LeetCode.</p>
+  <br clear="all">
+</details>
 
----
+<br>
 
-### 🌌 Let's Connect
+<a href="mailto:zehanw66@gmail.com">
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/assets/footer-mobile.svg">
+    <img src="https://raw.githubusercontent.com/CPBzhan/CPBzhan/main/assets/footer.svg" alt="Build something cool. Learn something new. Get in touch with Charlie." width="100%">
+  </picture>
+</a>
 
-If you’re into similar things, feel free to reach out or collaborate — I’m always open to new ideas 🤝  
-
----
-⭐️ *From [CPBzhan](https://github.com/CPBzhan)*  
+<p align="center">
+  <a href="mailto:zehanw66@gmail.com">Gmail</a> &nbsp; · &nbsp;
+  <a href="mailto:1511952898@qq.com">QQ Mail</a> &nbsp; · &nbsp;
+  <a href="https://github.com/CPBzhan">@CPBzhan</a>
+</p>

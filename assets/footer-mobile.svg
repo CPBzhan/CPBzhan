@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="250" viewBox="0 0 600 250" role="img" aria-labelledby="title desc">
+<title id="title">Build something cool. Learn something new.</title><desc id="desc">Get in touch with Charlie.</desc>
+<style>.wave{stroke-dasharray:160 600;animation:flow 7s linear infinite}@keyframes flow{to{stroke-dashoffset:-760}}@media(prefers-reduced-motion:reduce){.wave{animation:none;stroke-dasharray:none}}</style>
+<rect x=".5" y=".5" width="599" height="249" rx="16" fill="#080d14" stroke="#22313d"/>
+<g font-family="Arial, Helvetica, sans-serif"><text x="36" y="42" fill="#6ef3c5" font-size="18" letter-spacing="2">LET'S BUILD SOMETHING</text><text x="36" y="100" fill="#e7f3f5" font-size="38" font-weight="700" letter-spacing="-1">Build something cool.</text><text x="36" y="147" fill="#94aeb9" font-size="38" letter-spacing="-1">Learn something new.</text></g>
+<path d="M36 206h175l18-18 22 32 24-48 28 58 24-40 18 16h219" fill="none" stroke="#203d3c" stroke-width="2"/>
+<path class="wave" d="M36 206h175l18-18 22 32 24-48 28 58 24-40 18 16h219" fill="none" stroke="#6ef3c5" stroke-width="2"/>
+</svg>
